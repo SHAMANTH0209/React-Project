@@ -17,6 +17,7 @@ import Basics from "./Dec-nineteen/useEffect/Basics";
 import OnlyOnce from "./Dec-nineteen/useEffect/OnlyOnce";
 import Dependency from "./Dec-nineteen/useEffect/Dependency";
 import GetApiData from "./Dec-nineteen/API/GetApiData";
+import Routing from "./Dec-Sixteen/Routing/Routing";
 // import ClassComponent from "./dec-eight/ClassComponent";
 // import StateInClass from "../Dec-nine/StateInClass";
 // import FunctionComponent from "../Dec-nine/FunctionComponent";
@@ -74,7 +75,9 @@ function App() {
       {/* <Basics />
       <OnlyOnce />
       <Dependency /> */}
-      <GetApiData />
+      <Routing />
+      {/* <GetApiData /> */}
+      <Dec-Twenty />
     </div>
   );
 }

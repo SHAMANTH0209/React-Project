@@ -41,6 +41,9 @@ function Routing() {
         <Route path="/one" element={<One />} />
         <Route path="/two" element={<Two />} />
         <Route path="/three" element={<Three />} />
+        const handelClick = () => {
+          navigate ("/navigate-path");
+        };
       </Routes>
     </BrowserRouter>
   );
