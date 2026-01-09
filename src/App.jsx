@@ -5,19 +5,24 @@ import React from "react";
 // import Logout from "./Dec-Seventeen/Context/Logout";
 // import Shopping from "./Dec-Seventeen/Context/Shopping";
 // import LogIn from "./Dec-Seventeen/Context/Login";
-import Job from "./Dec-Eighteen/Condition/Job";
-import NoJob from "./Dec-Eighteen/Condition/NoJob";
-import NormalComponent from "./Dec-Eighteen/HOC/NormalComponent";
-import UpdatedComponent from "./Dec-Eighteen/HOC/UpdatedComponent";
-import HOCComponent from "./Dec-Eighteen/HOC/HOCComponent";
-import NormalUser from "./Dec-Eighteen/HOC/NormalUser";
-import PremiumUser from "./Dec-Eighteen/HOC/PremiumUser";
-import "./App.css";
-import Basics from "./Dec-nineteen/useEffect/Basics";
-import OnlyOnce from "./Dec-nineteen/useEffect/OnlyOnce";
-import Dependency from "./Dec-nineteen/useEffect/Dependency";
-import GetApiData from "./Dec-nineteen/API/GetApiData";
-import Routing from "./Dec-Sixteen/Routing/Routing";
+// import Job from "./Dec-Eighteen/Condition/Job";
+// import NoJob from "./Dec-Eighteen/Condition/NoJob";
+// import NormalComponent from "./Dec-Eighteen/HOC/NormalComponent";
+// import UpdatedComponent from "./Dec-Eighteen/HOC/UpdatedComponent";
+// import HOCComponent from "./Dec-Eighteen/HOC/HOCComponent";
+// import NormalUser from "./Dec-Eighteen/HOC/NormalUser";
+// import PremiumUser from "./Dec-Eighteen/HOC/PremiumUser";
+// import "./App.css";
+// import Basics from "./Dec-nineteen/useEffect/Basics";
+// import OnlyOnce from "./Dec-nineteen/useEffect/OnlyOnce";
+// import Dependency from "./Dec-nineteen/useEffect/Dependency";
+// import GetApiData from "./Dec-nineteen/API/GetApiData";
+// import Routing from "./Dec-Sixteen/Routing/Routing";
+import CounterRedux from "./Redux/CounterRedux";
+import EmployeeForm from "./Redux/employeeForm";
+import EmployeeList from "./Redux/EmployeeList";
+import DummyList from "./Redux/DummyList";
+import Inline from "./Inline";
 // import ClassComponent from "./dec-eight/ClassComponent";
 // import StateInClass from "../Dec-nine/StateInClass";
 // import FunctionComponent from "../Dec-nine/FunctionComponent";
@@ -75,9 +80,14 @@ function App() {
       {/* <Basics />
       <OnlyOnce />
       <Dependency /> */}
-      <Routing />
+      {/* <Routing /> */}
       {/* <GetApiData /> */}
-      <Dec-Twenty />
+      {/* <Dec-Twenty /> */}
+      {/* <CounterRedux /> */}
+      {/* <EmployeeForm />
+      <EmployeeList />
+      <DummyList /> */}
+      <Inline />
     </div>
   );
 }
